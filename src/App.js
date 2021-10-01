@@ -12,7 +12,12 @@ export default function App() {
           </main>
         </header>
       </div>
-      <footer className="text-center">Coded by Claire Blackwood</footer>
+      <footer className="text-center">
+        <a href="https://github.com/Killiana/dictionary-project">
+          Open-source code
+        </a>{" "}
+        by Iliyana Boneva
+      </footer>
     </div>
   );
 }
