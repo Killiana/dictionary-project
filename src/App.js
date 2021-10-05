@@ -8,7 +8,7 @@ export default function App() {
         <h1> Dictionary </h1>
         <header className="App-header">
           <main>
-            <Dictionary defaultKey="aspire" />
+            <Dictionary defaultKey="galaxy" />
           </main>
         </header>
       </div>
