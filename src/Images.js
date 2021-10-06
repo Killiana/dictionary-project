@@ -6,9 +6,9 @@ export default function Images(props) {
     return (
       <section className="images">
         <div className="row">
-          {props.images.map(function (image, indexPic) {
+          {props.images.map(function (image, index) {
             return (
-              <div className="col-4" key="indexPic">
+              <div className="col-4" key={index}>
                 <a href={image.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={image.src.tiny}
