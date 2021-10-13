@@ -13,7 +13,11 @@ export default function App() {
         </header>
       </div>
       <footer className="text-center">
-        <a href="https://github.com/Killiana/dictionary-project">
+        <a
+          href="https://github.com/Killiana/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-source code
         </a>{" "}
         by Iliyana Boneva
