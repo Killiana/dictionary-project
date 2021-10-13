@@ -47,11 +47,15 @@ export default function Dictionary(props) {
           <form onSubmit={handleSubmit}>
             <input
               type="search"
+              className="form-control"
               onChange={handleChange}
               defaultValue={props.defaultKey}
             />
           </form>
-          <span> i.e. star, asteroid, meteoroid, galaxy </span>
+          <small className="example">
+            {" "}
+            i.e. star, asteroid, meteoroid, galaxy{" "}
+          </small>
         </section>
         <Results results={results} />
         <Images images={images} />

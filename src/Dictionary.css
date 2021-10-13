@@ -4,7 +4,7 @@
   max-width: 960px;
 }
 .Dictionary section {
-  background: #ffb677;
+  background: #fcffc1;
   padding: 30px;
   border-radius: 16px;
   margin: 20px 0;
@@ -14,11 +14,19 @@
 .Dictionary input {
   width: 100%;
   border-radius: 6px;
-  padding: 6px 4px;
-  border: 1px solid #ff8364;
+  padding: 22px;
+  border: 1px solid #346357;
+  height: 50px;
   color: #333;
+  display: block;
+  font-size: 18px;
 }
 .top {
   font-size: 26px;
   margin-bottom: 10px;
+}
+section .example {
+  color: #346357;
+  display: block;
+  margin-top: 15px;
 }

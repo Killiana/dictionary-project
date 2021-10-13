@@ -1,8 +1,15 @@
 h1 {
   text-align: center;
   padding: 30px;
+  color: #346357;
 }
 .container {
-  max-width: 500px;
   width: 100%;
+}
+.App footer {
+  margin-bottom: 60px;
+}
+.App a {
+  color: #346357;
+  text-decoration: none;
 }

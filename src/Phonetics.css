@@ -7,7 +7,10 @@
 .Phonetics a {
   padding: 8px 18px;
   text-decoration: none;
-  border: 1px solid whitesmoke;
+  border: 1px solid #f16821;
+  background: #f3a333;
+  color: #f16821;
+  opacity: 0.7;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
   margin-right: 15px;
@@ -15,8 +18,8 @@
 }
 
 .Phonetics a:hover {
-  background: whitesmoke;
-  color: orange;
+  background: #f8c886;
+  color: #f16821;
 }
 .transcript {
   opacity: 0.8;
